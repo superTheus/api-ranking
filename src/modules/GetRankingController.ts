@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { CreateRanking } from "./createRanking";
+import { CreateRanking } from "./CreateRanking";
 
 export class GetRankingController {
     async handle(req: Request, res: Response) {
