@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { Player } from "../types";
-import { CreateRanking } from "./createRanking";
+import { CreateRanking } from "./CreateRanking";
 
 export class CreateRankingController {
     async handle(req: Request, res: Response) {
